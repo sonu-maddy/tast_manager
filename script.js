@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
     let currentFilter = 'all';
-    
+                //this is changing for learning purpose.
     // Initialize the app
     function init() {
         renderTasks();
